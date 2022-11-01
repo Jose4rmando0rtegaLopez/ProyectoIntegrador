@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color:#ffffff;
+    text-align: center;
+    padding: 0px 0;
+    background-image: url(../img/banner.jpeg);
+    height: 350px;
+    background-size: cover;
+    border-top: 2px solid #000;
+    background-repeat: no-repeat;
+
+}
+
+.logo{
+    display: flex;
+
+}
+.logo img{
+    position: relative;
+}
+
+.logo img{
+    position: absolute;
+    height: 200px;
+    left: 30px;
+    margin-top:50px;
+    border-radius: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    margin-top: 340px;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+nav a:hover{
+    color: #fffffd;
+    background-color: rgba(255, 160, 122, 0.616);
+}
+
+
+.amacas{
+    background-color: #F6CC86;
+    margin-top: 50px;
+}
+
+.contenedor-amacas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-amaca{
+    width: 48%;
+    margin-top: 35px;
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
+
+.contenido-texto{
+    display: flex;
+    background-color: white;
+    padding: 39px;
+    text-align: justify;
+    height: 150px;
+    margin-top: 115px;
+    width: 230px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.visita{
+    text-align: justify;
+    margin-left: -355px;
+    margin-top: 200px;
+    background-color: #000;
+    width: 150px;
+    height: 60px;
+    margin-top: 330px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.visita a{
+    padding: 10px;
+    text-align: center;
+    color:white;
+    display: flex;
+    text-decoration: none;
+}
+
+.visita a:hover{
+    color: #fffffd;
+    background-color: rgba(255, 160, 122, 0.616);
+}
